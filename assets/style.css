@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+button{
+    width: 60px;
+    height: auto;
+    background-color: darkred;
+    border: navajowhite;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: lightseagreen;
+}
+
+button:focus {
+    border:navajowhite;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    color: oldlace;
+    margin-top: 0;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #27364b;
+}
+
+h1,p,li {
+    font-family: sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 15px;
+}
+
+html {
+    height: 100%;
+}
+
+input {
+    border: 3px solid #abdff0;
+    border-radius: 6px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    height: 100%;
+}
+
+.search {
+    padding: 20px;
+    background-color: #9c4328;
+}
+
+search h1 {
+    line-height: 25px;
+}
+
+.forecast {
+    margin-top: 20px;
+    border: solid 1px #80c0eb;
+    margin-left: 5%;
+    min-width: 600px;
+    padding: 10px 15px 15px 15px;
+    height: 50%;
+}
+
+.five-day-container h1 {
+    margin-top: 30px;
+    margin-left: 8%;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.five-day-card {
+    margin-left: 60px;
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    color:sandybrown;
+    font-size: large;
+    background-color: #4beed3;
+}
+
+.five-day-card .card-text {
+    margin-bottom: 12px;
+    padding: 10px 25px 5px 10px;
+}
+
+.five-day-card h3 {
+    margin: 5px;
+}
+
+.five-day-card img{
+    margin-left: 12%;
+}
+
+.historyItems {
+    margin-top: 25px;
+}
+
+.historyItems:nth-child() {
+    margin-top: 25px;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+input {
+    height: 45px;
+    width: auto;
+}
+
+li:first-child {
+    height: 100%;
+    font-size:larger;
+    background-color: powderblue;
+    border: solid 1px #baebbe;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px 5px 10px 15px;
+    list-style: lower-roman;
+}
+
+li {
+    height: 100%;
+    font-size: large;
+    background-color: powderblue;
+    border: solid 1px #baebbe;
+    border-radius: 0px 0px 0px 0px;
+    padding: 10px 5px 10px 15px;
+    list-style: lower-roman;
+}
+
+li:last-child {
+    height: 100%;
+    font-size: larger;
+    background-color: powderblue;
+    border: solid 1pxx #baebbe;
+    border-radius: opx opx 5px 5px;
+    padding: 10px 5px 10px 5px;
+    list-style: lower-roman;
+}
+
+.row {
+    display:flex;
+    line-height: 50%;
+    margin: 5px 5px 5px 0px;
+}
+
+.row *{
+    margin-right: 5px;
+}
